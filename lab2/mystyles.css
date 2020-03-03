@@ -1,0 +1,103 @@
+body{
+	background: url(https://sun9-39.userapi.com/c851428/v851428903/4757a/RkV4EdLGK90.jpg) no-repeat scroll;
+
+}
+
+header div{
+	display:inline;
+	text-align: left;
+	background-color: lightgreen;
+height: 15%;
+	max-width: 80%;
+	max-height: 30%;
+opacity: 0.8;	
+padding: 10px;
+
+	margin-left: 10%;
+		margin-right: 10%;
+}
+
+header div.menu{
+	
+float: left;
+	background: green;
+	color: white;
+width: 25%;
+	max-height: 5%;
+	border: 2px solid lightcyan;
+	border-radius: 10px;
+	text-align: center;
+padding: 20px;
+margin: 5px;
+vertical-align: middle;
+
+}
+header div.menu:hover{
+	background-color: black;
+	color:white;
+	
+	
+}
+
+.menu a{
+	vertical-align: inherit;
+	color: inherit;
+	font-style: none;
+	opacity: 1; /////////?????
+	text-decoration:none;
+}
+
+#examples
+{
+background: lightgreen;
+	border-radius: 5px;
+	color: green;
+	padding-left: 10%;
+	padding-right:  10%;
+	margin-left: 10%;
+	margin-right: 10%;
+
+}
+.example{
+padding: 5%;
+margin:2%;
+color: white;
+background-color: green;
+float: left;
+border-radius: inherit;
+width: 10%;
+height: 20%;
+}
+#contacts
+{
+background: lightgreen;
+	border-radius: 5px;
+	color: green;
+	padding-left: 10%;
+	padding-right:  10%;
+	margin-left: 10%;
+	margin-right: 10%;
+	float: left;
+	
+	text-align: left;
+}
+
+
+
+main div{
+	background: lightgreen;
+	border-radius: 5px;
+	color: green;
+	padding-left: 10%;
+	padding-right:  10%;
+	margin-left: 10%;
+	margin-right: 10%;
+	float: center;
+	
+}
+p{padding: 10px;}
+
+header p{
+	padding: 0px;
+	
+}
