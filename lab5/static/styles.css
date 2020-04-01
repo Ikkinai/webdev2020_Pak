@@ -1,0 +1,185 @@
+body {
+    margin: 0;
+	min-width: 300px;
+}
+
+h1 {
+    margin: 0;
+}
+
+.header {
+    background-color: antiquewhite;
+    min-height: 70px;
+    padding-top: 20px; 
+    margin-bottom: 20px;
+    border-bottom: 5px solid rgb(246, 152, 0); 
+    box-sizing: border-box;
+}
+
+.main-menu {
+    display: flex;
+	flex-wrap:wrap;
+	}
+.main-menu a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+.navigation {
+	display: flex;
+    flex-grow: 1; /*вход убежал направо, т.к. нав стремится занять все свободное простарнство.*/
+	flex-wrap:wrap;
+}
+
+.profile {
+}
+
+.container {
+    max-width: 75%;
+    margin: 0 auto;
+}
+
+.sidebar {
+    float: left;
+    width: 200px;
+}
+
+.good-list {
+    padding-top: 20px;
+    margin-left: 220px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.good {
+    display: inline-block;
+    min-height: 300px;
+    min-width: 250px;
+    border: 1px solid black;
+    padding: 20px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.good-img {
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+}
+.good-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.price-and-order {
+    height: 50px;
+}
+
+.price {
+  display: inline-block;
+  height: 100%;
+  width: 50%;
+  background-color: rgb(246, 152, 0);
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 10px;
+  box-sizing: border-box;
+}
+
+.good-description {
+    margin: 20px 0;
+}
+
+.order-btn {
+    display: inline-block;
+    height: 100%;
+    width: 50%;
+    background-color: rgb(3, 3, 77);
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+
+.button-list
+{
+	float: left;
+	display: inline-block;
+	height: 25px;
+    width: 300px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+	margin-top: 10px;
+
+}
+
+.button-list-page
+{
+	background-color: rgb(3, 3, 77);
+	color: white;
+	  font-weight: bold;
+	box-sizing: border-box;
+	height: 100%;
+    width: 10%;
+	float: left;
+	display: inline-block;
+    padding: 20px;
+
+}
+
+.button-list-page-checked
+{
+	
+	background-color: rgb(255, 250, 205);
+	  font-weight: bold;
+	box-sizing: border-box;
+	height: 100%;
+    width: 10%;
+	float: left;
+	display: inline-block;
+    padding: 20px;
+
+}
+
+.footer
+{
+border-top: 3px solid rgb(246, 152, 0);
+min-height: 100px;
+background-color: rgb(255, 250, 205);
+text-align: left;
+display: block;
+	box-sizing: border-box;
+}
+
+@media all and (max-width: 600px)
+{
+	.main-menu{
+		text-direction: column;
+		
+	}
+	.navigation{
+		text-direction: column;
+		align-items: center;
+	}
+	.flex-wrapperka
+	{
+		flex-direction: column;
+	}
+	
+	
+}
+
+.flex-wrapperka
+{display: flex;
+
+
+}

@@ -90,6 +90,7 @@ display: inline-flex;
 	text-align: center;
 
 }
+
 #contacts
 {
 background: lightgreen;
@@ -129,6 +130,11 @@ header p{
 	padding:5px;
 	margin:5px;
 	float:center;
+	
+}
+
+.right{
+	float: right;
 	
 }
 
