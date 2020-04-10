@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+	<head>
+	<title>Profile</title>
+	<link rel="stylesheet" type="text/css" href="mystyles2.css">
+	</head>
+<body>
+	<header>
+		<nav>
+		<div class="menu">
+			<a href="index.html">Форма входа</a>
+		</div>
+		<div class="menu">
+			<a href="touch.html">Форма обратной связи</a>
+		</div>
+		<div class="menu">
+			<a href="../Сайт-портфолио/index.html">Портфолио</a>
+		</div>
+		</nav>
+	</header>
+	<main>
+
+	<div class="main">
+<form method="POST" action="https://httpbin.org/post">
+				<div class="form-group">
+					<label for="name">ФИО:</label>
+					<input id="name" name="name" type="text" placeholder="Иванов Иван Иванович"> 
+				</div>
+				<div class="form-group">
+					<label for="name">Пол:</br>
+					<input name="sex" type="radio" value="male" checked> Мужской</br>
+					<input name="sex" type="radio" value="female"> Женский
+					</label>
+				</div>
+				<div class="form-group">
+					<label for="email">Электронная почта:</label>
+					<input id="email" name="email" type="text" placeholder="your_email@site.ru"> 
+				</div>
+				<div class="form-group">
+				<label for="cat">Категория обращения:</label>
+					<select id="cat" name="cat">
+					<option value="gratitude" >Благодарность</option>
+					<option value="complaint" selected>Жалоба</option>
+					</select>			
+				</div>
+				<div class="form-group">
+					<label for="text1">Текст:</label>
+					<textarea id="text1" name="text1" cols=20 rows=10>Здравствуйте!</textarea> 
+				</div>
+				<div class="form-group">
+					<label for="attach">Файл:</label>
+					<input id="attach" name="attach" type="file"> 
+				</div>
+				<div class="form-group">
+					<input id="button" name="button" type="submit" value="Отправить"> 
+				</div>
+			</form>
+	</div>
+
+		
+	</main>
+	<footer>
+	
+	</footer>
+
+</body>
+
+</html>
